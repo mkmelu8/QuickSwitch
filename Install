@@ -1,0 +1,37 @@
+Questa applicazione è stata progettata per essere "Plug & Play". Non è necessario installare Python, librerie aggiuntive o programmi terzi sul computer. Segui questi semplici passaggi per renderla operativa in pochi minuti.
+
+📥 1. Download dei file necessari
+Dalla pagina delle Releases di questo progetto su GitHub, scarica l'archivio ZIP dell'ultima versione.
+Una volta estratto, troverai due file fondamentali che devono sempre viaggiare insieme:
+
+Selettore_LMU.exe (Il programma vero e proprio).
+
+iconavolantetstandard.jpg (L'immagine di sicurezza che il programma usa quando a un volante non è ancora stata assegnata una foto personalizzata).
+
+📂 2. Posizionamento dei file (Scelta consigliata)
+Per far sì che il programma lavori in modo completamente automatico, il posto migliore dove inserire questi due file è direttamente all'interno della cartella principale del tuo profilo di Le Mans Ultimate.
+
+Apri l'Esplora Risorse di Windows e vai nella cartella di installazione del gioco. Solitamente il percorso è simile a questo:
+C:\Program Files (x86)\Steam\steamapps\common\Le Mans Ultimate\UserData\player\
+
+Trascina all'interno di questa cartella sia il file Selettore_LMU.exe sia il file iconavolantetstandard.jpg.
+
+Nota: Se decidi di posizionare il programma altrove (es. sul Desktop), funzionerà ugualmente, ma al primo avvio ti chiederà di indicargli manualmente dove si trova la cartella "player" del simulatore tramite un pulsante dedicato.
+
+🚀 3. Primo Avvio e Creazione Collegamento
+Fai doppio clic su Selettore_LMU.exe per avviare il programma.
+
+Al primo avvio, l'applicazione creerà automaticamente in background la cartella di servizio necessaria a stipare in modo ordinato tutti i futuri file JSON che importerai.
+
+Consiglio pratico per la postazione: Per non dover scavare tra le cartelle di Steam ogni volta che devi cambiare volante, fai clic destro su Selettore_LMU.exe e seleziona Mostra altre opzioni -> Invia a -> Desktop (crea collegamento).
+
+Tenerlo aperto direttamente su uno dei monitor laterali da 50 pollici della postazione è l'ideale per fare il cambio profilo al volo con il mouse mentre l'auto è ferma ai box, senza dover iconizzare o chiudere il simulatore.
+
+⚙️ 4. Come aggiungere le tue immagini personalizzate
+Quando importi il file JSON di un nuovo volante, l'app gli assegnerà l'icona standard. Per renderlo riconoscibile a colpo d'occhio:
+
+Clicca sul pulsante "⚙️ Cambia Foto" sotto la scheda appena creata.
+
+Seleziona una foto (JPG o PNG) salvata sul tuo PC.
+
+Il programma la ridimensionerà, la taglierà a misura e la collegherà per sempre alla base hardware (es. Ascher, Simucube, Fanatec) rilevata dentro quel file JSON.
